@@ -4,7 +4,7 @@ This is our repository for preprocessing on whole brain project data from DICOM 
 
 
 # Pipeline
-![](image/pipeline_script2.pdf)
+![](image/pipeline.png)
 
 ## Anatomical image
 1. format change with conv_dcm2nii.sh
