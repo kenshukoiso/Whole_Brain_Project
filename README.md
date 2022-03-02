@@ -4,6 +4,16 @@ This is our repository for preprocessing on whole brain project data from DICOM 
 
 
 # Pipeline
+
+
+## Tools 
+- LayNii
+- ANTs
+- AFNI
+- SPM 
+- Freesurfer
+- ITK-SNAP
+
 ![](image/pipeline.png)
 
 ## Anatomical image
