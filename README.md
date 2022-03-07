@@ -51,3 +51,6 @@ This is our repository for preprocessing on whole brain project data from DICOM 
 9. manual correction 
 10. layerification with MC2Layering.sh 
 11. downsample the layering file with down_sample_layers.sh
+
+# Dataset
+Our dataset is available on Openneuro: https://openneuro.org/datasets/ds003216
