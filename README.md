@@ -6,13 +6,14 @@ This is our repository for preprocessing on whole brain project data from DICOM 
 # Pipeline
 
 
-## Tools 
-- LayNii
-- ANTs
-- AFNI
-- SPM 
-- Freesurfer
-- ITK-SNAP
+## Tools (tested version)
+- LayNii (2.2.0)
+- ANTs (2.1.0)
+- AFNI (AFNI_20.3.05)
+- SPM (12)
+- Freesurfer (7.2.0)
+- ITK-SNAP (3.8.0)
+- dcm2niix (v1.0.20210317)
 
 ![](image/pipeline.png)
 
