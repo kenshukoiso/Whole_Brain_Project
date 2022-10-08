@@ -22,8 +22,8 @@ FSLOUTPUTTYPE=NIFTI
 #fslmaths VASO_LN.nii -mul 2000 VASO_LN.nii -odt short
 
 echo "I am correcting for the proper TR in the header"
-3drefit -TR 1.5 BOLD_intemp.nii
-3drefit -TR 1.5 VASO_LN.nii
+3drefit -TR 5.1 BOLD_intemp.nii
+3drefit -TR 5.1 VASO_LN.nii
 
 echo "calculating Mean and tSNR maps"
 3dTstat -mean -prefix mean_nulled.nii moco_nulled.nii -overwrite
