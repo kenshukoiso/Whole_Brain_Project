@@ -23,3 +23,9 @@ done
 
 ### mask and layer
 3dcalc -a gf-cleaned_FluctuationAmplitude.nii -b moma.nii -expr 'a*b' -prefix masked_gf-cleaned_FluctuationAmplitude.nii -overwrite
+
+### visualization
+start_bias_field.sh masked_gf-cleaned_FluctuationAmplitude.nii
+
+3dcalc -a bico_masked_gf-cleaned_FluctuationAmplitude.nii -prefix clipped.nii -expr 'min(a,1)'
+LN_INTPRO -image clipped.nii -max -range 10 -output Max_dir3_10slices.nii -direction 3
